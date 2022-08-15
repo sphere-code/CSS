@@ -7,7 +7,7 @@
 
 .wrapper-grid {
     display: grid;
-    grid-template-columns: 1fr;
+    place-items: center;
 }
 
 .container {
@@ -17,10 +17,11 @@
 }
 
 .avatar {
-    background: url("images/avatar-01-small.png");
+    background: url("../images/avatar-01-small.png");
     border-radius: 100%;
-    width: 42px;
-    height: 42px;
+    background-size: 42px;
+    padding: 20px;
+    margin: 20px;
 }
 
 #followButton {
