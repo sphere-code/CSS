@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.wrapper-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.container {
+    height: 159px;
+    width: 141px;
+    border-radius: 8px;
+}
+
+.avatar {
+    background: url("images/avatar-01-small.png");
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+}
+
+#followButton {
+    width: auto;
+    height: 33px;
+    text-align: center;
+    background: #3151F5;
+    font-size: 12px;
+    font-weight: 700;
+}
